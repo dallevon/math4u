@@ -1,0 +1,61 @@
+<config>
+	<fields name="params">
+		<fieldset name="peritem" overwrite="false">
+
+			<field name="features_item_title" label="ROKSPROCKET_LAYOUT_FEATURES_TITLE_LABEL" type="peritempicker" default="-default-" icon="text" optionorder="58" description="ROKSPROCKET_LAYOUT_FEATURES_TITLE_DESC">
+				<option value="-default-">JDEFAULT</option>
+				<option value="-title-">ROKSPROCKET_ARTICLE_TITLE</option>
+				<option value="-none-">JNONE</option>
+				<option value="divider"></option>
+				<option value="">ROKSPROCKET_CUSTOM</option>
+			</field>
+
+			<field name="features_item_description" label="ROKSPROCKET_LAYOUT_FEATURES_DESCRIPTION_LABEL" type="peritempicker" default="-default-" icon="text" optionorder="59" description="ROKSPROCKET_LAYOUT_FEATURES_DESCRIPTION_DESC">
+				<option value="-none-">JNONE</option>
+				<option value="-default-">JDEFAULT</option>
+				<option value="-article-">ROKSPROCKET_ARTICLE_DESCRIPTION</option>
+				<option value="divider"></option>
+				<option value="">ROKSPROCKET_CUSTOM</option>
+			</field>
+
+			<field name="features_item_background" label="ROKSPROCKET_LAYOUT_FEATURES_BACKGROUND_LABEL" type="imagepicker" icon="image" default="-default-" optionorder="60" description="ROKSPROCKET_LAYOUT_FEATURES_BACKGROUND_DESC"/>
+
+			<field name="features_item_image" label="ROKSPROCKET_LAYOUT_FEATURES_IMAGE_LABEL" type="imagepicker" icon="image" default="-default-" optionorder="61" description="ROKSPROCKET_LAYOUT_FEATURES_IMAGE_DESC"/>
+
+			<field name="features_item_image_position" label="ROKSPROCKET_LAYOUT_FEATURES_IMAGE_POSITION_LABEL" type="peritempicker" default="-default-" icon="preview" optionorder="62" description="ROKSPROCKET_LAYOUT_FEATURES_IMAGE_POSITION_DESC">
+				<option value="-top-">ABOVE</option>
+				<option value="-right-">RIGHT</option>
+				<option value="-bottom-">BELOW</option>
+				<option value="-left-">LEFT</option>
+			</field>
+
+			<field name="features_item_image_animation" label="ROKSPROCKET_LAYOUT_FEATURES_IMAGE_ANIMATION_LABEL" type="peritempicker" default="-bouncein-" icon="color" optionorder="63" description="ROKSPROCKET_LAYOUT_FEATURES_IMAGE_ANIMATION_DESC">
+				<option value="-bouncein-">BOUNCEIN</option>
+				<option value="-bounceinup-">BOUNCEINUP</option>
+				<option value="-bounceinright-">BOUNCEINRIGHT</option>
+				<option value="-bounceinleft-">BOUNCEINLEFT</option>
+				<option value="-bounceindown-">BOUNCEINDOWN</option>
+				<option value="-fadein-">FADEIN</option>
+				<option value="-fadeinup-">FADEINUP</option>
+				<option value="-fadeinright-">FADEINRIGHT</option>
+				<option value="-fadeinleft-">FADEINLEFT</option>
+				<option value="-fadeindown-">FADEINDOWN</option>
+				<option value="-flipinx-">FLIPINX</option>
+				<option value="-flipiny-">FLIPINY</option>
+				<option value="-slideinright-">SLIDEINRIGHT</option>
+				<option value="-slideinleft-">SLIDEINLEFT</option>
+				<option value="-slideindown-">SLIDEINDOWN</option>
+				<option value="-rollin-">ROLLIN</option>
+			</field>
+
+			<field name="features_item_link" label="ROKSPROCKET_LAYOUT_FEATURES_LINK_LABEL" type="peritempicker" default="-default-" icon="link" optionorder="64" description="ROKSPROCKET_LAYOUT_FEATURES_LINK_DESC">
+				<option value="-none-">JNONE</option>
+				<option value="-default-">JDEFAULT</option>
+				<option value="-article-">ROKSPROCKET_ARTICLE_LINK</option>
+				<option value="divider"></option>
+				<option value="">ROKSPROCKET_CUSTOM</option>
+			</field>
+
+		</fieldset>
+	</fields>
+</config>
